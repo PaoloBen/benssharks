@@ -1,0 +1,167 @@
+{
+  "_fv": 73,
+  "_type": "animatedblock",
+  "definition": {
+    "texture": "landminedefault",
+    "textureTop": "",
+    "textureLeft": "",
+    "textureFront": "",
+    "textureRight": "",
+    "textureBack": "",
+    "renderType": 0,
+    "rotationMode": 1,
+    "enablePitch": false,
+    "emissiveRendering": true,
+    "displayFluidOverlay": false,
+    "animateBlockItem": false,
+    "itemTexture": "landmineitem",
+    "particleTexture": "",
+    "tintType": "No tint",
+    "isItemTinted": false,
+    "hasTransparency": true,
+    "connectedSides": false,
+    "transparencyType": "SOLID",
+    "disableOffset": false,
+    "boundingBoxes": [
+      {
+        "mx": 6.0,
+        "my": 1.0,
+        "mz": 6.0,
+        "Mx": 10.0,
+        "My": 2.0,
+        "Mz": 10.0,
+        "subtract": false
+      },
+      {
+        "mx": 5.0,
+        "my": 0.0,
+        "mz": 5.0,
+        "Mx": 11.0,
+        "My": 1.0,
+        "Mz": 11.0,
+        "subtract": false
+      }
+    ],
+    "name": "Land Mine",
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "hardness": 3.0,
+    "resistance": 0.0,
+    "hasGravity": false,
+    "isWaterloggable": true,
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:BensSharks"
+      }
+    ],
+    "destroyTool": "pickaxe",
+    "customDrop": {
+      "value": ""
+    },
+    "dropAmount": 0,
+    "useLootTableForDrops": false,
+    "requiresCorrectTool": true,
+    "enchantPowerBonus": 0.0,
+    "plantsGrowOn": true,
+    "canRedstoneConnect": true,
+    "lightOpacity": 0,
+    "material": {
+      "value": "CARPET"
+    },
+    "tickRate": 1,
+    "tickRandomly": false,
+    "isReplaceable": false,
+    "canProvidePower": false,
+    "emittedRedstonePower": {
+      "fixedValue": 10.0
+    },
+    "colorOnMap": "TNT",
+    "creativePickItem": {
+      "value": ""
+    },
+    "offsetType": "NONE",
+    "aiPathNodeType": "WALKABLE",
+    "flammability": 0,
+    "fireSpreadSpeed": 0,
+    "isLadder": false,
+    "slipperiness": 0.6,
+    "speedFactor": 1.0,
+    "jumpFactor": 1.0,
+    "animationCount": 1,
+    "reactionToPushing": "DESTROY",
+    "isNotColidable": false,
+    "isCustomSoundType": true,
+    "soundOnStep": {
+      "value": "CANDLE"
+    },
+    "breakSound": {
+      "value": "block.stone.break"
+    },
+    "fallSound": {
+      "value": "block.mud.fall"
+    },
+    "hitSound": {
+      "value": "block.coral_block.hit"
+    },
+    "placeSound": {
+      "value": "block.coral_block.place"
+    },
+    "stepSound": {
+      "value": "block.anvil.step"
+    },
+    "luminance": 0,
+    "unbreakable": false,
+    "breakHarvestLevel": 0,
+    "hasInventory": false,
+    "guiBoundTo": "<NONE>",
+    "openGUIOnRightClick": false,
+    "inventorySize": 9,
+    "inventoryStackSize": 64,
+    "inventoryDropWhenDestroyed": true,
+    "inventoryComparatorPower": true,
+    "generateFeature": false,
+    "inventoryOutSlotIDs": [],
+    "inventoryInSlotIDs": [],
+    "hasEnergyStorage": false,
+    "energyInitial": 0,
+    "energyCapacity": 400000,
+    "energyMaxReceive": 200,
+    "energyMaxExtract": 200,
+    "isFluidTank": false,
+    "fluidCapacity": 8000,
+    "fluidRestrictions": [],
+    "onRightClicked": {
+      "name": "LandMineOnBlockRightClicked"
+    },
+    "onTickUpdate": {
+      "name": "LandMineUpdateTick"
+    },
+    "onDestroyedByExplosion": {
+      "name": "LandMineBlockDestroyedByExplosion"
+    },
+    "onEntityCollides": {
+      "name": "LandMineEntityWalksOnTheBlock"
+    },
+    "onEntityWalksOn": {
+      "name": "LandMineEntityWalksOnTheBlock"
+    },
+    "onRedstoneOn": {
+      "name": "LandMineRedstoneOn"
+    },
+    "onHitByProjectile": {
+      "name": "LandMineOnBlockHitByProjectile"
+    },
+    "restrictionBiomes": [],
+    "blocksToReplace": [],
+    "generationShape": "UNIFORM",
+    "frequencyPerChunks": 10,
+    "frequencyOnChunk": 16,
+    "minGenerateHeight": 0,
+    "maxGenerateHeight": 64,
+    "normal": "landmine.geo.json",
+    "displaySettings": "landmine.item.json",
+    "vanillaToolTier": "NONE",
+    "blockstateList": []
+  }
+}

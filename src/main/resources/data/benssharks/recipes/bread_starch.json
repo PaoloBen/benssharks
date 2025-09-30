@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "benssharks:starch"
+    }
+  },
+  "result": {
+    "item": "minecraft:bread",
+    "count": 1
+  }
+}

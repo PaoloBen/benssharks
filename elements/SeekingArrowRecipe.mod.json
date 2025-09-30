@@ -1,0 +1,28 @@
+{
+  "_fv": 73,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smithing",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "smithingInputStack": {
+      "value": "CUSTOM:Maelstrom"
+    },
+    "smithingInputAdditionStack": {
+      "value": "Items.TIDE_ARMOR_TRIM"
+    },
+    "smithingInputTemplateStack": {
+      "value": "Items.BOW"
+    },
+    "smithingReturnStack": {
+      "value": "CUSTOM:MaelstromBow"
+    },
+    "name": "seeking_arrow_recipe",
+    "namespace": "mod"
+  }
+}

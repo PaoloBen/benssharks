@@ -1,0 +1,22 @@
+{
+  "_fv": 73,
+  "_type": "potion",
+  "definition": {
+    "potionName": "Potion of Frenzy",
+    "splashName": "Splash Potion of Frenzy",
+    "lingeringName": "Lingering Potion of Frenzy",
+    "arrowName": "Arrow of Frenzy",
+    "effects": [
+      {
+        "effect": {
+          "value": "CUSTOM:Frenzy"
+        },
+        "duration": 3600,
+        "infinite": false,
+        "amplifier": 0,
+        "ambient": false,
+        "showParticles": true
+      }
+    ]
+  }
+}

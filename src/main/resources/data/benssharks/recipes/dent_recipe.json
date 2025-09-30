@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "a",
+    "b"
+  ],
+  "key": {
+    "a": {
+      "item": "benssharks:shark_tooth"
+    },
+    "b": {
+      "item": "minecraft:prismarine_shard"
+    }
+  },
+  "result": {
+    "item": "benssharks:dent",
+    "count": 1
+  }
+}

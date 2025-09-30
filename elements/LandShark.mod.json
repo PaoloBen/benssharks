@@ -1,0 +1,199 @@
+{
+  "_fv": 73,
+  "_type": "animatedentity",
+  "definition": {
+    "mobName": "Land Shark",
+    "mobLabel": "",
+    "mobModelTexture": "land_shark.png",
+    "mobModelGlowTexture": "",
+    "visualScale": {
+      "fixedValue": 1.0,
+      "name": "LandSharkEntityVisualScale"
+    },
+    "boundingBoxScale": {
+      "fixedValue": 1.0
+    },
+    "entityDataEntries": [
+      {
+        "name": "Sitting",
+        "type": "logic",
+        "value": false
+      },
+      {
+        "name": "Tamed",
+        "type": "logic",
+        "value": false
+      },
+      {
+        "name": "InWater",
+        "type": "logic",
+        "value": false
+      }
+    ],
+    "modelWidth": 0.6,
+    "modelHeight": 0.85,
+    "modelShadowSize": 0.5,
+    "mountedYOffset": 0.0,
+    "stepHeight": 0.6,
+    "hasSpawnEgg": true,
+    "spawnEggBaseColor": {
+      "value": -10915167,
+      "falpha": 0.0
+    },
+    "spawnEggDotColor": {
+      "value": -6840401,
+      "falpha": 0.0
+    },
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:BensSharks"
+      }
+    ],
+    "isBoss": false,
+    "bossBarColor": "PINK",
+    "bossBarType": "PROGRESS",
+    "equipmentMainHand": {
+      "value": ""
+    },
+    "equipmentOffHand": {
+      "value": ""
+    },
+    "equipmentHelmet": {
+      "value": ""
+    },
+    "equipmentBody": {
+      "value": ""
+    },
+    "equipmentLeggings": {
+      "value": ""
+    },
+    "equipmentBoots": {
+      "value": ""
+    },
+    "mobBehaviourType": "Creature",
+    "mobCreatureType": "WATER",
+    "attackStrength": 10,
+    "attackKnockback": 0.0,
+    "knockbackResistance": 0.0,
+    "movementSpeed": 0.3,
+    "armorBaseValue": 0.0,
+    "trackingRange": 64,
+    "followRange": 32,
+    "health": 40,
+    "xpAmount": 5,
+    "waterMob": false,
+    "flyingMob": false,
+    "guiBoundTo": "<NONE>",
+    "inventorySize": 9,
+    "inventoryStackSize": 64,
+    "deathTime": 20,
+    "lerp": 4,
+    "disableCollisions": false,
+    "ridable": false,
+    "canControlForward": false,
+    "canControlStrafe": false,
+    "immuneToFire": false,
+    "immuneToArrows": false,
+    "immuneToFallDamage": false,
+    "immuneToCactus": false,
+    "immuneToDrowning": true,
+    "immuneToLightning": false,
+    "immuneToPotions": false,
+    "immuneToPlayer": false,
+    "immuneToExplosion": false,
+    "immuneToTrident": false,
+    "immuneToAnvil": false,
+    "immuneToWither": false,
+    "immuneToDragonBreath": false,
+    "mobDrop": {
+      "value": ""
+    },
+    "livingSound": {
+      "value": ""
+    },
+    "hurtSound": {
+      "value": "entity.armadillo.hurt"
+    },
+    "deathSound": {
+      "value": "entity.armadillo.death"
+    },
+    "stepSound": {
+      "value": "entity.wolf.step"
+    },
+    "raidCelebrationSound": {
+      "value": ""
+    },
+    "whenMobIsHurt": {
+      "name": "LandSharkEntityIsHurt"
+    },
+    "onRightClickedOn": {
+      "name": "LandSharkRightClickedOnEntity"
+    },
+    "onMobTickUpdate": {
+      "name": "LandSharkOnEntityTickUpdate"
+    },
+    "onInitialSpawn": {
+      "name": "LandSharkOnInitialEntitySpawn"
+    },
+    "hasAI": true,
+    "aiBase": "(none)",
+    "aixml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"aitasks_container\" deletable=\"false\" x=\"40\" y=\"40\"><next><block type=\"wander\"><field name=\"speed\">1</field><field name=\"condition\">IfSitting,IfSitting</field><next><block type=\"fight_as_owner\"><field name=\"condition\">IfSitting,IfTamed</field><next><block type=\"protect_owner\"><field name=\"condition\">IfTamed,IfSitting</field><next><block type=\"follow_owner\"><field name=\"speed\">1</field><field name=\"min_distance\">16</field><field name=\"max_distance\">2</field><field name=\"condition\">IfSitting,IfSitting</field><next><block type=\"breed\"><field name=\"speed\">1</field><field name=\"condition\">IfSitting,IfSitting</field><next><block type=\"follow_parent\"><field name=\"speed\">0.8</field><field name=\"condition\">IfSitting,IfSitting</field><next><block type=\"attack_on_collide\"><field name=\"speed\">1</field><field name=\"longmemory\">FALSE</field><field name=\"condition\">null,null</field><next><block type=\"attack_action\"><field name=\"callhelp\">TRUE</field><field name=\"condition\">null,null</field><next><block type=\"attack_entity\"><field name=\"insight\">TRUE</field><field name=\"nearby\">FALSE</field><field name=\"entity\">CUSTOM:Thalassoger</field><field name=\"condition\">IfTamed,IfTamed</field><next><block type=\"attack_entity\"><field name=\"insight\">TRUE</field><field name=\"nearby\">FALSE</field><field name=\"entity\">CUSTOM:CookiecutterShark</field><field name=\"condition\">IfTamed,IfTamed</field><next><block type=\"attack_entity\"><field name=\"insight\">TRUE</field><field name=\"nearby\">FALSE</field><field name=\"entity\">EntityLiving</field><field name=\"condition\">AggressiveSharksProcedure,AggressiveSharksProcedure</field><next><block type=\"look_around\"><field name=\"condition\">IfSitting,IfSitting</field><next><block type=\"swim_in_water\"><field name=\"condition\">LandSharkFloat,LandSharkFloat</field><next><block type=\"follow_entity\"><field name=\"speed\">1</field><field name=\"maxrange\">64</field><field name=\"followarea\">5</field><field name=\"condition\">IfSitting,IfSitting</field><next><block type=\"avoid_entity\"><field name=\"entity\">EntityDolphin</field><field name=\"radius\">128</field><field name=\"farspeed\">1</field><field name=\"nearspeed\">1.2</field><field name=\"condition\">IfSitting,IfSitting</field><next><block type=\"avoid_entity\"><field name=\"entity\">CUSTOM:Shrak</field><field name=\"radius\">128</field><field name=\"farspeed\">1</field><field name=\"nearspeed\">1.2</field><field name=\"condition\">IfSitting,IfSitting</field><next><block type=\"avoid_entity\"><field name=\"entity\">CUSTOM:TigerShark</field><field name=\"radius\">128</field><field name=\"farspeed\">1</field><field name=\"nearspeed\">1.2</field><field name=\"condition\">IfSitting,IfSitting</field><next><block type=\"avoid_entity\"><field name=\"entity\">CUSTOM:MakoShark</field><field name=\"radius\">128</field><field name=\"farspeed\">1</field><field name=\"nearspeed\">1.2</field><field name=\"condition\">IfSitting,IfSitting</field><next><block type=\"avoid_entity\"><field name=\"entity\">CUSTOM:Remora</field><field name=\"radius\">128</field><field name=\"farspeed\">1</field><field name=\"nearspeed\">1.2</field><field name=\"condition\">IfSitting,IfSitting</field><next><block type=\"avoid_entity\"><field name=\"entity\">EntityDrowned</field><field name=\"radius\">128</field><field name=\"farspeed\">1</field><field name=\"nearspeed\">1.2</field><field name=\"condition\">IfSitting,IfSitting</field><next><block type=\"avoid_entity\"><field name=\"entity\">CUSTOM:Axodile</field><field name=\"radius\">128</field><field name=\"farspeed\">1</field><field name=\"nearspeed\">1.2</field><field name=\"condition\">IfSitting,IfSitting</field></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></xml>",
+    "model": "land_shark.geo.json",
+    "groupName": "Head",
+    "animation1": "idle",
+    "animation2": "walk",
+    "animation3": "",
+    "animation4": "bite",
+    "animation5": "swim",
+    "animation6": "sit",
+    "animation7": "dig",
+    "animation8": "",
+    "animation9": "sit",
+    "animation10": "",
+    "enable2": true,
+    "enable3": false,
+    "enable4": true,
+    "enable5": true,
+    "enable6": true,
+    "enable7": false,
+    "enable8": false,
+    "enable9": true,
+    "enable10": false,
+    "breedable": true,
+    "tameable": true,
+    "disableDeathRotation": false,
+    "headMovement": true,
+    "eyeHeight": false,
+    "breedTriggerItems": [
+      {
+        "value": "Items.FISH#0"
+      }
+    ],
+    "ranged": false,
+    "rangedAttackItem": {
+      "value": ""
+    },
+    "rangedItemType": "Default item",
+    "rangedAttackInterval": 20,
+    "rangedAttackRadius": 10.0,
+    "height": 1.0,
+    "attackRate": 7,
+    "raidSpawnsCount": [
+      4,
+      3,
+      3,
+      4,
+      4,
+      4,
+      2
+    ],
+    "spawnThisMob": false,
+    "doesDespawnWhenIdle": false,
+    "spawningProbability": 1,
+    "mobSpawningType": "creature",
+    "minNumberOfMobsPerGroup": 1,
+    "maxNumberOfMobsPerGroup": 1,
+    "restrictionBiomes": [],
+    "spawnInDungeons": false
+  }
+}

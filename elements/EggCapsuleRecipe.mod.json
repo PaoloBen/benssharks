@@ -1,0 +1,48 @@
+{
+  "_fv": 73,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:Axoscute"
+      },
+      {
+        "value": "CUSTOM:Axoscute"
+      },
+      {
+        "value": "CUSTOM:Axoscute"
+      },
+      {
+        "value": "CUSTOM:Axoleather"
+      },
+      {
+        "value": "CUSTOM:MutatedEgg"
+      },
+      {
+        "value": "CUSTOM:Axoleather"
+      },
+      {
+        "value": "CUSTOM:Axoscute"
+      },
+      {
+        "value": "CUSTOM:Axoscute"
+      },
+      {
+        "value": "CUSTOM:Axoscute"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:EggCapsule"
+    },
+    "name": "egg_capsule_recipe",
+    "namespace": "mod"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "benssharks:krill_item"
+    },
+    {
+      "item": "benssharks:krill_item"
+    },
+    {
+      "item": "benssharks:krill_item"
+    },
+    {
+      "item": "minecraft:bucket"
+    }
+  ],
+  "result": {
+    "item": "benssharks:krill_bucket",
+    "count": 1
+  }
+}

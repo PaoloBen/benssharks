@@ -1,0 +1,25 @@
+{
+  "_fv": 73,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Brewing",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "brewingInputStack": {
+      "value": "POTION:AWKWARD"
+    },
+    "brewingIngredientStack": {
+      "value": "CUSTOM:SharkTooth"
+    },
+    "brewingReturnStack": {
+      "value": "POTION:CUSTOM:JawsPotion"
+    },
+    "name": "jaws_potion_recipe",
+    "namespace": "mod"
+  }
+}

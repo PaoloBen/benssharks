@@ -1,0 +1,96 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.unknown",
+				"texture_width": 64,
+				"texture_height": 64,
+				"visible_bounds_width": 4,
+				"visible_bounds_height": 1.5,
+				"visible_bounds_offset": [0, 0.25, 0]
+			},
+			"bones": [
+				{
+					"name": "cookie",
+					"pivot": [0, 0, -7],
+					"rotation": [0, 180, 0]
+				},
+				{
+					"name": "head",
+					"parent": "cookie",
+					"pivot": [0, 1.5, -6],
+					"cubes": [
+						{"origin": [-1.5, 1.5, -6], "size": [3, 2, 4], "uv": [19, 0]}
+					]
+				},
+				{
+					"name": "Jaw",
+					"parent": "head",
+					"pivot": [0, 1, -6],
+					"cubes": [
+						{"origin": [-1.5, 0.5, -6], "size": [3, 1, 2], "uv": [35, 7]}
+					]
+				},
+				{
+					"name": "torso",
+					"parent": "cookie",
+					"pivot": [0, 1, -6],
+					"cubes": [
+						{"origin": [-2, 0, -17], "size": [4, 3.5, 11], "uv": [0, 0]}
+					]
+				},
+				{
+					"name": "tailbone",
+					"parent": "torso",
+					"pivot": [0, 2, -17],
+					"cubes": [
+						{"origin": [-1, 0.5, -23], "size": [2, 3, 6], "uv": [12, 15]}
+					]
+				},
+				{
+					"name": "tail",
+					"parent": "tailbone",
+					"pivot": [0, 2.5, -23],
+					"cubes": [
+						{"origin": [-1, -1.5, -32], "size": [1, 7, 9], "uv": [0, 15]},
+						{"origin": [-0.01, -1.5, -32], "size": [1, 7, 9], "uv": [20, 15]}
+					]
+				},
+				{
+					"name": "dorsalfin",
+					"parent": "tailbone",
+					"pivot": [1, 1, -23],
+					"cubes": [
+						{"origin": [0, -2.5, -23.25], "size": [0, 3, 3], "pivot": [0, 1, -23], "rotation": [0, 0, 65], "uv": [0, 3]},
+						{"origin": [0, -2.5, -23.25], "size": [0, 3, 3], "pivot": [0, 1, -23], "rotation": [0, 0, -65], "uv": [0, 0]}
+					]
+				},
+				{
+					"name": "dorsalfin2",
+					"parent": "tailbone",
+					"pivot": [1, 1, -13],
+					"cubes": [
+						{"origin": [0, 5, -19], "size": [0, 2, 2], "pivot": [1, 1, -13], "rotation": [25, 0, 0], "uv": [6, 0]}
+					]
+				},
+				{
+					"name": "leftfin",
+					"parent": "torso",
+					"pivot": [-2, 0, -8.5],
+					"cubes": [
+						{"origin": [-2, -0.5, -12], "size": [0, 2, 3], "pivot": [-2, 0, -9], "rotation": [-26.1341, 33.86002, -14.74196], "uv": [0, 18]}
+					]
+				},
+				{
+					"name": "rightfin",
+					"parent": "torso",
+					"pivot": [2, 0, -8.5],
+					"cubes": [
+						{"origin": [2, -0.5, -12], "size": [0, 2, 3], "pivot": [2, 0, -9], "rotation": [-25.73242, -32.86737, 14.22683], "uv": [0, 6]}
+					]
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,29 @@
+{
+  "_fv": 73,
+  "_type": "potioneffect",
+  "definition": {
+    "effectName": "Frenzy",
+    "icon": "frenzy",
+    "color": {
+      "value": -65536,
+      "falpha": 0.0
+    },
+    "isInstant": false,
+    "mobEffectCategory": "BENEFICIAL",
+    "renderStatusInInventory": true,
+    "renderStatusInHUD": true,
+    "isCuredByMilk": true,
+    "isProtectedByTotem": true,
+    "isCuredbyHoney": false,
+    "modifiers": [],
+    "onStarted": {
+      "name": "FrenzyEffectStartedapplied"
+    },
+    "onActiveTick": {
+      "name": "FrenzyOnEffectActiveTick"
+    },
+    "onExpired": {
+      "name": "FrenzyEffectExpires"
+    }
+  }
+}

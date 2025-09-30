@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " ab",
+    " ca",
+    "d  "
+  ],
+  "key": {
+    "a": {
+      "item": "benssharks:shark_tooth"
+    },
+    "b": {
+      "item": "benssharks:megalodon_tooth"
+    },
+    "c": {
+      "item": "benssharks:axoleather"
+    },
+    "d": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "benssharks:spetum",
+    "count": 1
+  }
+}

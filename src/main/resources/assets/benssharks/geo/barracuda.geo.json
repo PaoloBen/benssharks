@@ -1,0 +1,108 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.unknown",
+				"texture_width": 64,
+				"texture_height": 64,
+				"visible_bounds_width": 4,
+				"visible_bounds_height": 2.5,
+				"visible_bounds_offset": [0, 0.75, 0]
+			},
+			"bones": [
+				{
+					"name": "Rotate",
+					"pivot": [0, 2, 0]
+				},
+				{
+					"name": "Pish",
+					"parent": "Rotate",
+					"pivot": [0, 2, 0]
+				},
+				{
+					"name": "Head",
+					"parent": "Pish",
+					"pivot": [0, 2, -7],
+					"cubes": [
+						{"origin": [-1, 0.5, -10.98481], "size": [2, 4, 3], "uv": [12, 30]}
+					]
+				},
+				{
+					"name": "mouth",
+					"parent": "Head",
+					"pivot": [0, 2.5, -10.98481]
+				},
+				{
+					"name": "upperjaw",
+					"parent": "mouth",
+					"pivot": [0.17365, 3, -10.98481],
+					"cubes": [
+						{"origin": [-1, 2, -14.98481], "size": [2, 2, 4], "uv": [26, 21]}
+					]
+				},
+				{
+					"name": "lowerjaw",
+					"parent": "mouth",
+					"pivot": [0.17365, 2, -10.98481],
+					"cubes": [
+						{"origin": [-1, 1, -14.98481], "size": [2, 1, 4], "uv": [26, 27]},
+						{"origin": [-1, 2, -14.98481], "size": [2, 1, 4], "uv": [38, 27]}
+					]
+				},
+				{
+					"name": "Torso",
+					"parent": "Pish",
+					"pivot": [0, 2, -3],
+					"cubes": [
+						{"origin": [-1.5, 0, -8], "size": [3, 5, 16], "uv": [0, 0]},
+						{"origin": [1, -2, -6], "size": [0, 2, 2], "pivot": [1, 0, -5], "rotation": [0, 0, -12.5], "uv": [0, 36]},
+						{"origin": [-1, -2, -6], "size": [0, 2, 2], "pivot": [-1, 0, -5], "rotation": [0, 0, 12.5], "uv": [4, 36]},
+						{"origin": [0, 5, -4], "size": [0, 2, 3], "uv": [34, 33]}
+					]
+				},
+				{
+					"name": "RightFin",
+					"parent": "Torso",
+					"pivot": [-1.5, 2, -7],
+					"cubes": [
+						{"origin": [-4, 1, -7], "size": [3, 2, 0], "pivot": [-1.5, 2, -7], "rotation": [0, 47.5, 0], "uv": [8, 37]}
+					]
+				},
+				{
+					"name": "LeftFin",
+					"parent": "Torso",
+					"pivot": [1.5, 2, -7],
+					"cubes": [
+						{"origin": [1, 1, -7], "size": [3, 2, 0], "pivot": [1.5, 2, -7], "rotation": [0, -47.5, 0], "uv": [14, 37]}
+					]
+				},
+				{
+					"name": "fin_back",
+					"parent": "Torso",
+					"pivot": [0, 2, 5],
+					"cubes": [
+						{"origin": [0, 5, 5], "size": [0, 2, 3], "uv": [22, 33]},
+						{"origin": [0, -2, 5], "size": [0, 2, 3], "uv": [28, 33]}
+					]
+				},
+				{
+					"name": "Abdomen",
+					"parent": "Torso",
+					"pivot": [0, 2, 8],
+					"cubes": [
+						{"origin": [-1, 0.5, 8], "size": [2, 4, 5], "uv": [12, 21]}
+					]
+				},
+				{
+					"name": "Tail",
+					"parent": "Abdomen",
+					"pivot": [0, 2, 11],
+					"cubes": [
+						{"origin": [0, -2, 13], "size": [0, 9, 6], "uv": [0, 21]}
+					]
+				}
+			]
+		}
+	]
+}

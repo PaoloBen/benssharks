@@ -1,0 +1,33 @@
+{
+  "_fv": 73,
+  "_type": "projectile",
+  "definition": {
+    "projectileItem": {
+      "value": "CUSTOM:MaelstromBow"
+    },
+    "showParticles": false,
+    "actionSound": {
+      "value": "block.conduit.deactivate"
+    },
+    "igniteFire": false,
+    "power": 2.0,
+    "damage": 12.0,
+    "knockback": 2,
+    "entityModel": "ModelSeekingArrow",
+    "customModelTexture": "seekingarrow.png",
+    "modelWidth": 0.25,
+    "modelHeight": 0.25,
+    "onHitsBlock": {
+      "name": "SeekingArrowProjectileHitsBlock"
+    },
+    "onHitsPlayer": {
+      "name": "SeekingArrowProjectileHitsPlayer"
+    },
+    "onHitsEntity": {
+      "name": "SeekingArrowProjectileHitsLivingEntity"
+    },
+    "onFlyingTick": {
+      "name": "SeekingArrowWhileProjectileFlyingTick"
+    }
+  }
+}

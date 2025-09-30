@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a",
+    "a",
+    "a"
+  ],
+  "key": {
+    "a": {
+      "item": "benssharks:starch"
+    }
+  },
+  "result": {
+    "item": "benssharks:cellophane_noodles",
+    "count": 1
+  }
+}

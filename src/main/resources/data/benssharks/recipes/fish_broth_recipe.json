@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smoking",
+  "category": "food",
+  "experience": 1,
+  "cookingtime": 150,
+  "ingredient": {
+    "item": "benssharks:fish_bucket"
+  },
+  "result": "benssharks:fish_broth"
+}

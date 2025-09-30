@@ -1,0 +1,6 @@
+{
+  "parent": "benssharks:displaysettings/landmine.item",
+  "textures": {
+    "particle": "benssharks:block/landminedefault"
+  }
+}

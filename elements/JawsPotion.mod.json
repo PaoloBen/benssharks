@@ -1,0 +1,22 @@
+{
+  "_fv": 73,
+  "_type": "potion",
+  "definition": {
+    "potionName": "Potion of Jaws",
+    "splashName": "Splash Potion of Jaws",
+    "lingeringName": "Lingering Potion of Jaws",
+    "arrowName": "Arrow of Jaws",
+    "effects": [
+      {
+        "effect": {
+          "value": "CUSTOM:Jaws"
+        },
+        "duration": 3600,
+        "infinite": false,
+        "amplifier": 0,
+        "ambient": false,
+        "showParticles": true
+      }
+    ]
+  }
+}

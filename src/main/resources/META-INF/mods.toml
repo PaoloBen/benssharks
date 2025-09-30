@@ -1,0 +1,35 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="GNU Lesser General Public License version 3 (LGPLv3)"
+
+[[mods]]
+modId="benssharks"
+version="1.2.7.1"
+displayName="Ben's Sharks"
+displayURL="https://www.curseforge.com/minecraft/mc-mods/bens-sharks"
+logoFile="logo.png"
+credits="A solo project by a 1st Year Computer Science student."
+authors="benndevs"
+description="A simplistic approach towards one of the ocean's most complex creatures."
+
+# Start of user code block mod configuration
+# End of user code block mod configuration
+
+[[dependencies.benssharks]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1]"
+    ordering="AFTER"
+    side="BOTH"
+
+
+[[dependencies.benssharks]]
+    modId="geckolib"
+    mandatory=false
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
+
+
+# Start of user code block dependencies configuration
+# End of user code block dependencies configuration

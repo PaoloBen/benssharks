@@ -1,0 +1,22 @@
+{
+  "_fv": 73,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smelting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "FOOD",
+    "xpReward": 1.0,
+    "cookingTime": 300,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "smeltingInputStack": {
+      "value": "CUSTOM:SharkMeal"
+    },
+    "smeltingReturnStack": {
+      "value": "CUSTOM:FishBroth"
+    },
+    "name": "fish_broth_smelt",
+    "namespace": "mod"
+  }
+}

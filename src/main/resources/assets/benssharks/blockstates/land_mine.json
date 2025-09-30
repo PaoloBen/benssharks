@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "benssharks:custom/land_mine_particle"
+    },
+    "facing=east": {
+      "model": "benssharks:custom/land_mine_particle",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "benssharks:custom/land_mine_particle",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "benssharks:custom/land_mine_particle",
+      "y": 270
+    }
+  }
+}

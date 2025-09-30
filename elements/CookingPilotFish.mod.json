@@ -1,0 +1,22 @@
+{
+  "_fv": 73,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smoking",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "FOOD",
+    "xpReward": 1.0,
+    "cookingTime": 100,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "smokingInputStack": {
+      "value": "CUSTOM:RawPilotFish"
+    },
+    "smokingReturnStack": {
+      "value": "CUSTOM:CookedPilotFish"
+    },
+    "name": "cooking_pilot_fish",
+    "namespace": "mod"
+  }
+}

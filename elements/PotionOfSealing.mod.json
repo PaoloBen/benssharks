@@ -1,0 +1,22 @@
+{
+  "_fv": 73,
+  "_type": "potion",
+  "definition": {
+    "potionName": "Potion of Sealing",
+    "splashName": "Splash Potion Sealing",
+    "lingeringName": "Lingering Potion Sealing",
+    "arrowName": "Arrow of Sealing",
+    "effects": [
+      {
+        "effect": {
+          "value": "CUSTOM:SealingPotion"
+        },
+        "duration": 3600,
+        "infinite": false,
+        "amplifier": 0,
+        "ambient": false,
+        "showParticles": true
+      }
+    ]
+  }
+}

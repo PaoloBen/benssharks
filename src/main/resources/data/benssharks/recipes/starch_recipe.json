@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:potato"
+    }
+  },
+  "result": {
+    "item": "benssharks:starch",
+    "count": 1
+  }
+}

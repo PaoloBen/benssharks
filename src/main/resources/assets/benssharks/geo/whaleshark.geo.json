@@ -1,0 +1,156 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.unknown",
+				"texture_width": 256,
+				"texture_height": 256,
+				"visible_bounds_width": 15,
+				"visible_bounds_height": 4,
+				"visible_bounds_offset": [0, 1, 0]
+			},
+			"bones": [
+				{
+					"name": "Shark",
+					"pivot": [0, 4, -10]
+				},
+				{
+					"name": "Torso",
+					"parent": "Shark",
+					"pivot": [0, 11, -29]
+				},
+				{
+					"name": "Torso2",
+					"parent": "Torso",
+					"pivot": [0, 11, -29]
+				},
+				{
+					"name": "Belly",
+					"parent": "Torso2",
+					"pivot": [0, 11, -29],
+					"cubes": [
+						{"origin": [-16.5, 0, -29], "size": [33, 21, 46], "uv": [0, 0]}
+					]
+				},
+				{
+					"name": "Thorax",
+					"parent": "Torso2",
+					"pivot": [0, 11, 17],
+					"cubes": [
+						{"origin": [-11, 2.5, 15], "size": [22, 17, 41], "uv": [0, 67]}
+					]
+				},
+				{
+					"name": "Abdomen",
+					"parent": "Thorax",
+					"pivot": [0, 11, 56],
+					"cubes": [
+						{"origin": [-6, 6, 54], "size": [12, 10, 26], "uv": [110, 125]},
+						{"origin": [-1, 8, 62], "size": [2, 8, 8], "pivot": [0, 21, 70], "rotation": [-40, 0, 0], "uv": [22, 167]},
+						{"origin": [-1, 11, 52], "size": [2, 6, 9], "pivot": [0, 19, 71], "rotation": [37.5, 0, 0], "uv": [0, 167]}
+					]
+				},
+				{
+					"name": "Tail",
+					"parent": "Abdomen",
+					"pivot": [0, 11, 80],
+					"cubes": [
+						{"origin": [-1, 14.58579, 81.88579], "size": [2, 27, 11], "pivot": [0, 20, 84], "rotation": [-45, 0, 0], "uv": [144, 161]},
+						{"origin": [-1, 5.58579, 81.88579], "size": [2, 9, 23], "pivot": [0, 20, 84], "rotation": [-45, 0, 0], "uv": [158, 0]}
+					]
+				},
+				{
+					"name": "bone",
+					"parent": "Thorax",
+					"pivot": [6, 6, -12]
+				},
+				{
+					"name": "bone2",
+					"parent": "Thorax",
+					"pivot": [-3, 3, 27],
+					"cubes": [
+						{"origin": [-17.65796, 0.93271, 17.99788], "size": [17, 2, 11], "pivot": [-3, 2, 20], "rotation": [0.07706, 46.4958, -45.86252], "uv": [158, 32]}
+					]
+				},
+				{
+					"name": "bone3",
+					"parent": "Thorax",
+					"pivot": [3, 3, 27],
+					"cubes": [
+						{"origin": [0.65796, 0.93271, 17.99788], "size": [17, 2, 11], "pivot": [3, 2, 20], "rotation": [0.07706, -46.4958, 45.86252], "uv": [158, 45]}
+					]
+				},
+				{
+					"name": "DorsalFin",
+					"parent": "Thorax",
+					"pivot": [0, 19, 17],
+					"cubes": [
+						{"origin": [-1, 18.66533, 16.9403], "size": [2, 20, 15], "pivot": [0, 20, 17], "rotation": [-32.5, 0, 0], "uv": [110, 161]}
+					]
+				},
+				{
+					"name": "RightFin",
+					"parent": "Torso2",
+					"pivot": [-16, 3, -15],
+					"cubes": [
+						{"origin": [-45.18262, 0.90572, -22.73305], "size": [31, 2, 15], "pivot": [-16, 2, -19], "rotation": [0.76058, 16.55414, -25.23709], "uv": [126, 67]}
+					]
+				},
+				{
+					"name": "LeftFin",
+					"parent": "Torso2",
+					"pivot": [16, 3, -15],
+					"cubes": [
+						{"origin": [14.18262, 0.90572, -22.73305], "size": [31, 2, 15], "pivot": [16, 2, -19], "rotation": [0.76058, -16.55414, 25.23709], "uv": [126, 84]}
+					]
+				},
+				{
+					"name": "Head",
+					"parent": "Shark",
+					"pivot": [0, 10, -26]
+				},
+				{
+					"name": "skull",
+					"parent": "Head",
+					"pivot": [0, 12, -26],
+					"cubes": [
+						{"origin": [-15, 2, -51], "size": [30, 17, 25], "uv": [0, 125]}
+					]
+				},
+				{
+					"name": "Teeth",
+					"parent": "skull",
+					"pivot": [0, 12, -26]
+				},
+				{
+					"name": "jaw",
+					"parent": "Head",
+					"pivot": [0, 12, -26],
+					"cubes": [
+						{"origin": [13, 5, -55], "size": [1, 6, 4], "uv": [30, 246]},
+						{"origin": [-14, 5, -55], "size": [1, 6, 4], "uv": [0, 246]},
+						{"origin": [-14, 11, -55], "size": [1, 6, 4], "uv": [10, 246]},
+						{"origin": [13, 11, -55], "size": [1, 6, 4], "uv": [20, 246]}
+					]
+				},
+				{
+					"name": "upper",
+					"parent": "jaw",
+					"pivot": [0, 12, -50],
+					"cubes": [
+						{"origin": [-13, 11, -55], "size": [26, 6, 4], "uv": [40, 246]}
+					]
+				},
+				{
+					"name": "lower",
+					"parent": "jaw",
+					"pivot": [0, 12, -50],
+					"cubes": [
+						{"origin": [-13, 5, -55], "size": [26, 6, 4], "uv": [100, 246]}
+					]
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "benssharks:egg_capsule"
+    },
+    "title": {
+      "translate": "advancements.land_shark_achievement.title"
+    },
+    "description": {
+      "translate": "advancements.land_shark_achievement.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "land_shark_achievement_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "benssharks:the_meg"
+}

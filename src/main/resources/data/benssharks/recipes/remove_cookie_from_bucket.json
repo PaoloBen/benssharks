@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "benssharks:cookiecutter_shark_bucket"
+    }
+  ],
+  "result": {
+    "item": "benssharks:cookiecutter_shark_live",
+    "count": 1
+  }
+}

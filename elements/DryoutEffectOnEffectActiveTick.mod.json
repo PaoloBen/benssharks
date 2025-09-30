@@ -1,0 +1,7 @@
+{
+  "_fv": 73,
+  "_type": "procedure",
+  "definition": {
+    "procedurexml": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?><xml xmlns=\"https://developers.google.com/blockly/xml\"><block deletable=\"false\" type=\"event_trigger\" x=\"631\" y=\"265\"><field name=\"trigger\">no_ext_trigger</field><next><block type=\"controls_if\"><mutation elseif=\"1\"/><value name=\"IF0\"><block type=\"logic_negate\"><value name=\"BOOL\"><block type=\"entity_isinwaterrain_orbubblecolumn\"><value name=\"entity\"><block type=\"entity_from_deps\"/></value></block></value></block></value><statement name=\"DO0\"><block type=\"deal_damage\"><value name=\"amount\"><block type=\"math_number\"><field name=\"NUM\">1</field></block></value><value name=\"entity\"><block type=\"entity_from_deps\"/></value><value name=\"damagesource\"><block type=\"damagesource_from_type\"><field name=\"damagetype\">DRYOUT</field></block></value></block></statement><value name=\"IF1\"><block type=\"entity_isinwaterrain_orbubblecolumn\"><value name=\"entity\"><block type=\"entity_from_deps\"/></value></block></value><statement name=\"DO1\"><block type=\"entity_remove_specific_potion_effect\"><field name=\"potion\">CUSTOM:DryoutEffect</field><value name=\"entity\"><block type=\"entity_from_deps\"/></value></block></statement></block></next></block></xml>"
+  }
+}

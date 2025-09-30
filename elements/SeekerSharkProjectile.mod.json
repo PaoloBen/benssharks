@@ -1,0 +1,33 @@
+{
+  "_fv": 73,
+  "_type": "projectile",
+  "definition": {
+    "projectileItem": {
+      "value": "CUSTOM:Maelstrom"
+    },
+    "showParticles": false,
+    "actionSound": {
+      "value": "entity.evocation_illager.cast_spell"
+    },
+    "igniteFire": false,
+    "power": 0.5,
+    "damage": 18.0,
+    "knockback": 1,
+    "entityModel": "Modelunknown",
+    "customModelTexture": "seekershark.png",
+    "modelWidth": 0.25,
+    "modelHeight": 0.25,
+    "onHitsBlock": {
+      "name": "SeekerSharkProjectileProjectileHitsBlock"
+    },
+    "onHitsPlayer": {
+      "name": "SeekerSharkProjectileProjectileHitsPlayer"
+    },
+    "onHitsEntity": {
+      "name": "SeekerSharkProjectileProjectileHitsLivingEntity"
+    },
+    "onFlyingTick": {
+      "name": "SeekerSharkHoming"
+    }
+  }
+}

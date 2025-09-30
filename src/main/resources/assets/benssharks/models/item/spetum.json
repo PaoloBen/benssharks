@@ -1,0 +1,6 @@
+{
+  "parent": "benssharks:displaysettings/spetum",
+  "textures": {
+    "layer0": "benssharks:item/spetum"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "bcb",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "benssharks:axoscute"
+    },
+    "b": {
+      "item": "benssharks:axoleather"
+    },
+    "c": {
+      "item": "benssharks:mutated_egg"
+    }
+  },
+  "result": {
+    "item": "benssharks:egg_capsule",
+    "count": 1
+  }
+}

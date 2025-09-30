@@ -1,0 +1,48 @@
+{
+  "_fv": 73,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "EQUIPMENT",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:Axoscute"
+      },
+      {
+        "value": "CUSTOM:Axoscute"
+      },
+      {
+        "value": "CUSTOM:Axoscute"
+      },
+      {
+        "value": "CUSTOM:Axoscute"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Axoscute"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:Jagged.helmet"
+    },
+    "name": "hardened_helmet_recipe",
+    "namespace": "mod"
+  }
+}

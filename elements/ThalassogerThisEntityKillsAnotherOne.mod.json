@@ -1,0 +1,7 @@
+{
+  "_fv": 73,
+  "_type": "procedure",
+  "definition": {
+    "procedurexml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"event_trigger\" deletable=\"false\" x=\"40\" y=\"40\"><field name=\"trigger\">no_ext_trigger</field></block><block type=\"set_entity_texture\" x=\"79\" y=\"164\"><field name=\"element\">CUSTOM:Thalassoger</field><value name=\"entity\"><block type=\"entity_from_deps\"></block></value><value name=\"texture\"><block type=\"text\"><field name=\"TEXT\">thalassoger</field></block></value></block></xml>"
+  }
+}

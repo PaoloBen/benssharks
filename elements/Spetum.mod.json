@@ -1,0 +1,57 @@
+{
+  "_fv": 73,
+  "_type": "animateditem",
+  "definition": {
+    "renderType": 0,
+    "texture": "spetum",
+    "name": "Spetum",
+    "idle": "1",
+    "rarity": "UNCOMMON",
+    "displaySettings": "spetum.json",
+    "leftArm": "",
+    "rightArm": "",
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:BensSharks"
+      }
+    ],
+    "firstPersonArms": false,
+    "stackSize": 1,
+    "enchantability": 15,
+    "useDuration": 0,
+    "toolType": 1.0,
+    "damageCount": 750,
+    "recipeRemainder": {
+      "value": ""
+    },
+    "destroyAnyBlock": false,
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "enableArmPose": false,
+    "damageOnCrafting": false,
+    "enableMeleeDamage": true,
+    "damageVsEntity": 9.0,
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "hasGlow": false,
+    "guiBoundTo": "<NONE>",
+    "inventorySize": 9,
+    "inventoryStackSize": 1,
+    "onEntityHitWith": {
+      "name": "SpetumLivingEntityIsHitWithItem"
+    },
+    "isFood": false,
+    "nutritionalValue": 4,
+    "saturation": 0.3,
+    "eatResultItem": {
+      "value": ""
+    },
+    "isMeat": false,
+    "isAlwaysEdible": false,
+    "animation": "spear",
+    "normal": "spetum.geo.json",
+    "armPoseList": [],
+    "disableSwing": false
+  }
+}

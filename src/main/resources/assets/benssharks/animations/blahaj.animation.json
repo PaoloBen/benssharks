@@ -1,0 +1,31 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"0": {
+			"loop": true,
+			"animation_length": 0.0417
+		},
+		"1": {
+			"animation_length": 0.3333,
+			"bones": {
+				"Blahaj": {
+					"scale": {
+						"0.0": {
+							"vector": [1, 1, 1]
+						},
+						"0.125": {
+							"vector": [1.1, 0.7, 0.7]
+						},
+						"0.1667": {
+							"vector": [1.1, 0.7, 0.7]
+						},
+						"0.3333": {
+							"vector": [1, 1, 1]
+						}
+					}
+				}
+			}
+		}
+	},
+	"geckolib_format_version": 2
+}

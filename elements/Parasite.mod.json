@@ -1,0 +1,29 @@
+{
+  "_fv": 73,
+  "_type": "potioneffect",
+  "definition": {
+    "effectName": "Parasite",
+    "icon": "parasite",
+    "color": {
+      "value": -10340296,
+      "falpha": 0.0
+    },
+    "isInstant": false,
+    "mobEffectCategory": "HARMFUL",
+    "renderStatusInInventory": true,
+    "renderStatusInHUD": true,
+    "isCuredByMilk": true,
+    "isProtectedByTotem": true,
+    "isCuredbyHoney": false,
+    "modifiers": [],
+    "onStarted": {
+      "name": "ParasiteEffectStartedapplied"
+    },
+    "onActiveTick": {
+      "name": "ParasiteOnEffectActiveTick"
+    },
+    "onExpired": {
+      "name": "ParasiteEffectExpires"
+    }
+  }
+}
